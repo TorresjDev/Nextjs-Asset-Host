@@ -4,7 +4,7 @@
   "description": "📜 **A creative hosting hub for all your artistic and multimedia needs!** Whether you're building websites, designing graphics, producing videos, or crafting unique projects, this repository has you covered. With a structured and scalable collection of icons, images, videos, and audio files, it's your ultimate toolbox for creativity.🎶📸 From sleek UI icons to stunning wallpapers, cinematic posters, and high-quality soundtracks, everything you need is right here.🎬 Dive in and bring your visions to life! ✨🚀",
   "main": "index.js",
   "scripts": {
-    "build": "npm run generate:metadata && npm run optimize:assets && next build",
+    "build": "npm run generate:metadata && next build",
     "start": "next start",
     "dev": "node scripts/generateMetadata.js && next dev",
     "lint": "next lint",
