@@ -1,13 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./app/**/*.{ts,tsx}",
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./public/**/*.html",
-  ],
-  theme: {
-    container: {
+	content: [
+		"./app/**/*.{ts,tsx}",
+		"./pages/**/*.{ts,tsx}",
+		"./components/**/*.{ts,tsx}",
+		"./public/**/*.html",
+	],
+	theme: {
+		container: {
 			center: true,
 			screens: {
 				"2xl": "1420px",
@@ -16,7 +16,7 @@ module.exports = {
 				xsm: "480px",
 			},
 		},
-    extend: {},
-  },
-  plugins: [],
+		extend: {},
+	},
+	plugins: [],
 };
