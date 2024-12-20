@@ -1,113 +1,126 @@
-# 🎨Creative Assets Hub🎥
+# 📖 README Documentation Update
 
-📜 **A creative hosting hub for all your artistic and multimedia needs!** Whether you're building websites, designing graphics, producing videos, or crafting unique projects, this repository has you covered. With a structured and scalable collection of icons, images, videos, and audio files, it's your ultimate toolbox for creativity.🎶📸 From sleek UI icons to stunning wallpapers, cinematic posters, and high-quality soundtracks, everything you need is right here.🎬 Dive in and bring your visions to life! ✨🚀
+## Overview
+The following update ensures that the documentation aligns with the repository structure, recent changes to the Next.js configuration, and deployment details for GitHub Pages. This improves clarity and usability for contributors and end-users.
+
+---
+
+# 🎨 Creative Assets Host
+
+📜 **A hub for all your creative and multimedia asset needs!** Whether you're building websites, designing graphics, producing videos, or crafting unique projects, this repository has you covered. Featuring icons, images, videos, and audio files, it’s the ultimate toolbox for creativity. From sleek UI icons to stunning wallpapers, cinematic posters, and high-quality soundtracks, everything you need is here. 🎬✨🚀
+
+## 🔗 Live Demo
+Access the project live at:
+[Assets Host GitHub Pages](https://torresjdev.github.io/assets-host/)
+
+---
+
+## 🛠️ Technologies Used
+- **Next.js**: A React framework for building web applications.
+- **TypeScript**: Ensures type safety and code maintainability.
+- **Tailwind CSS**: Rapidly builds modern, responsive designs.
+- **GitHub Pages**: Hosts the static export of the application.
+
+---
 
 ## 📂 Repository Structure
 
 ```
-assets/ 
-  ├── 🎧 audio/
-  │    ├── 🔔 effects/        # Sound effects (e.g., notifications, clicks)
-  │    ├── 🎵 music/          # Background music tracks
-  │    └── 🎙️ voiceovers/     # Voiceover recordings for videos or presentations
-  │
-  ├── 🖍️ backgrounds/
-  │    ├── 🎭 abstract/       # Abstract patterns, gradients
-  │    ├── 🪵 textures/       # Textures like wood, marble, or fabric
-  │    ├── 🎨 themed/         # Themed backgrounds (e.g., holiday, retro)
-  │    └── 🌈 gradient-sets/  # Color gradient packs
-  │
-  ├── 🖼️ covers/
-  │    ├── 🖌️ logos/          # Cover images for logos
-  │    ├── 🖼️ wallart/        # Wall art covers, including posters and illustrations
-  │    └── 📋 general/        # General cover images for miscellaneous projects
-  │
-  ├── 📜 docs/
-  │    ├── 📑 licenses/       # License agreements for assets
-  │    ├── 📚 usage-guides/   # How to use and credit assets
-  │    ├── 📕 pdfs/           # PDF documents for guides or resources
-  │    └── 📄 word-docs/      # Word documents stored for additional documentation
-  │
-  └── 🔗 icons/
-       ├── 🌐 social/         # Social media icons (e.g., Facebook, Twitter, Instagram)
-       ├── 💡 tech/           # tech lib & frame icons (e.g., js, py, c# icons)
-       ├── 💡 ui/             # UI/UX icons (e.g., buttons, actions, system icons)
-       └── 🎲 misc/           # Miscellaneous icons not specific to a category
+app/
+  ├── components/       # Reusable React components
+  ├── lib/              # Utility functions and metadata
+  ├── page.tsx          # Main entry point for rendering the homepage
+  └── layout.tsx        # Root layout file
+
+public/
+  └── assets/           # Static asset files (icons, images, audio, etc.)
+
+scripts/
+  └── generateMetadata.js  # Script to generate metadata for assets
+
+styles/
+  └── globals.css       # Global Tailwind CSS styles
+
+.github/
+  └── workflows/
+       └── nextjs.yml   # Workflow for building and deploying to GitHub Pages
 ```
 
-<!-- 
-├── 🎨 branding/
-│   ├── 🖌️ logos/           # Logos (primary, secondary, monochrome, etc.)
-│   ├── 📖 guidelines/      # Brand guidelines, typography, and color palettes
-│   └── 📝 templates/       # Reusable branding templates (e.g., business cards, email signatures)
-│
-│
-├── 🖼️ graphics/
-│   ├── 🎯 banners/         # Website headers, promotional banners
-│   ├── 📊 infographics/    # Charts, diagrams, or educational visuals
-│   └── 🎨 posters/         # Event posters, artistic posters, or decorative graphics
-│
-├── 🖌️ wallart/
-│   ├── 🖼️ wallpapers/      # Digital wallpapers (desktop, mobile, or themed sets)
-│   ├── ✍️ illustrations/   # Hand-drawn or digitally created artwork
-│   └── 🎬 movie-covers/    # Creative interpretations or themed covers for movies
-│
-├── 📸 photos/
-│   ├── 👤 portraits/       # Headshots, profile photos
-│   ├── 🌄 landscapes/      # Nature, cityscapes, or scenic photos
-│   ├── 🛒 products/        # E-commerce or product shots
-│   └── 🎉 events/          # Event photography (e.g., weddings, conferences)
-│
-├── 🎥 movies/
-│   ├── 🎟️ posters/         # Posters or promotional artwork
-│   ├── 🖼️ stills/          # High-resolution movie stills or snapshots
-│   └── 🎞️ trailers/        # Short video clips or teasers (link externally if large)
-│
-├── 🎬 animations/
-│   ├── 🎞️ gifs/            # Animated GIFs for quick visual storytelling
-│   ├── 🔄 lottie/          # Lottie animation JSON files
-│   └── 🔁 short-clips/     # Short looping video clips
-│
-├── 🔤 fonts/
-│   ├── 🖋️ serif/           # Serif font files
-│   ├── 🔤 sans-serif/      # Sans-serif font files
-│   ├── 🖍️ decorative/      # Display or artistic fonts
-│   └── ✍️ handwritten/     # Script or handwritten fonts 
-│
-├── 🎥 videos/
-│   ├── 🎓 tutorials/       # Educational or project-specific tutorials
-│   ├── 📣 promos/          # Promotional videos or ads
-│   └── 📂 misc/            # Miscellaneous video content
- -->
- 
+---
+
 ## 🌟 Features
 - **Centralized Hosting**: A single hub for all creative assets.
 - **Clear Organization**: Hierarchical folder structure for easy navigation.
-- **GitHub Pages Ready**: Serve assets directly via URLs for web integration.
+- **GitHub Pages Ready**: Automatically deploys static content.
 
-## 🔗 Usage
+---
+
+## 🚀 Deployment
+
+### Steps to Deploy
+1. **Generate Metadata**
+   Ensure the `generateMetadata.js` script is executed to create metadata for assets.
+   ```bash
+   npm run generate:metadata
+   ```
+
+2. **Build the Project**
+   Build the project for static export:
+   ```bash
+   npm run build
+   ```
+
+3. **Push to GitHub**
+   Push the changes to the `main` branch. The GitHub Actions workflow will automatically deploy the site to GitHub Pages.
+
+4. **Access the Site**
+   Visit the deployed site:
+   ```
+https://<username>.github.io/assets-host/
+   ```
+
+---
+
+## 🔗 Usage Instructions
 
 ### Accessing Assets
-You can access assets through GitHub Pages using the following URL format:
+You can access assets using the following URL format:
 ```
-https://<your-username>.github.io/Creative-Assets-Hub/<path-to-file>
+https://<username>.github.io/assets-host/assets/<path-to-file>
 ```
 
 ### Examples
-- Icon: `https://<your-username>.github.io/Creative-Assets-Hub/icons/social/twitter-icon.svg`
-- Wallpaper: `https://<your-username>.github.io/Creative-Assets-Hub/wallart/wallpapers/ocean-view.jpg`
+- Icon: `https://torresjdev.github.io/assets-host/assets/icons/social/github.svg`
+- Wallpaper: `https://torresjdev.github.io/assets-host/assets/backgrounds/gradient-set1.jpg`
 
-### Cloning the Repository
-To clone this repository locally:
+---
+
+## 🧩 Troubleshooting
+
+### Images Not Loading
+Ensure that:
+1. **`basePath` is Correct**: The `next.config.js` file includes:
+   ```javascript
+   basePath: '/assets-host';
+   ```
+2. **Metadata Paths are Accurate**: Check `generateMetadata.js` ensures paths include `/assets-host`.
+
+### Development Server
+To run the development server locally:
 ```bash
-git clone https://github.com/<your-username>/Creative-Assets-Hub.git
+npm run dev
 ```
+Visit `http://localhost:3000` in your browser.
 
-## 📜 License
-Refer to the `docs/licenses/` folder for detailed licensing information. Ensure proper attribution where required.
+---
 
 ## 🤝 Contributions
 Contributions are welcome! Feel free to:
-- Add new assets
-- Suggest improvements to the structure
-- Open an issue for discussions
+- Add new assets.
+- Improve existing components or scripts.
+- Suggest structural improvements.
+
+---
+
+## 📜 License
+Refer to `public/docs/licenses/` for licensing information. Proper attribution is required where applicable.
