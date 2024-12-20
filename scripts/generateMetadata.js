@@ -7,6 +7,9 @@ const ASSETS_DIR = path.join(__dirname, '../public/assets');
 // Define the output file for metadata.
 const OUTPUT_FILE = path.join(__dirname, '../app/lib/metadata.ts');
 
+// Define the basePath for GitHub Pages.
+const BASE_PATH = '/assets-host'; // Replace with your repository name.
+
 /**
  * Function: generateMetadata
  * --------------------------
@@ -28,10 +31,10 @@ function generateMetadata(dir, basePath = '') {
       // If it's a directory, recursively collect metadata.
       metadata.push(...generateMetadata(fullPath, relativePath));
     } else {
-      // If it's a file, add its metadata.
+      // If it's a file, add its metadata with the basePath.
       metadata.push({
         name: file, // File name.
-        path: `/assets/${relativePath.replace(/\\/g, '/')}`, // File path in the assets folder.
+        path: `${BASE_PATH}/assets/${relativePath.replace(/\\/g, '/')}`, // File path with basePath.
         type: path.extname(file).slice(1), // File extension (e.g., 'png').
       });
     }
