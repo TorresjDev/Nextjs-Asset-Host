@@ -107,7 +107,9 @@ assets/
 
 ### Accessing Assets
 You can access assets using the following URL format:
+You can access assets using the following URL format:
 ```
+https://<username>.github.io/assets-host/assets/<path-to-file>
 https://<username>.github.io/assets-host/assets/<path-to-file>
 ```
 
@@ -129,15 +131,43 @@ Ensure that:
 
 ### Development Server
 To run the development server locally:
+- Icon: `https://torresjdev.github.io/assets-host/assets/icons/social/github.svg`
+- Wallpaper: `https://torresjdev.github.io/assets-host/assets/backgrounds/gradient-set1.jpg`
+
+---
+
+## 🧩 Troubleshooting
+
+### Images Not Loading
+Ensure that:
+1. **`basePath` is Correct**: The `next.config.js` file includes:
+   ```javascript
+   basePath: '/assets-host';
+   ```
+2. **Metadata Paths are Accurate**: Check `generateMetadata.js` ensures paths include `/assets-host`.
+
+### Development Server
+To run the development server locally:
 ```bash
+npm run dev
 npm run dev
 ```
 Visit `http://localhost:3000` in your browser.
+Visit `http://localhost:3000` in your browser.
 
+---
 ---
 
 ## 🤝 Contributions
 Contributions are welcome! Feel free to:
+- Add new assets.
+- Improve existing components or scripts.
+- Suggest structural improvements.
+
+---
+
+## 📜 License
+Refer to `public/docs/licenses/` for licensing information. Proper attribution is required where applicable.
 - Add new assets.
 - Improve existing components or scripts.
 - Suggest structural improvements.
