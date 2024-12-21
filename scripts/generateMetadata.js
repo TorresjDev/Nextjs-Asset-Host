@@ -21,7 +21,7 @@ const BASE_PATH = '/assets-host'; // Replace with your repository name.
  */
 function generateMetadata(dir, basePath = '') {
   const files = fs.readdirSync(dir); // Read directory contents.
-  const metadata = []; // Initialize metadata array.
+  const metadata = {};
 
   files.forEach((file) => {
     const fullPath = path.join(dir, file); // Full file path.
@@ -29,14 +29,14 @@ function generateMetadata(dir, basePath = '') {
 
     if (fs.statSync(fullPath).isDirectory()) {
       // If it's a directory, recursively collect metadata.
-      metadata.push(...generateMetadata(fullPath, relativePath));
+      metadata[file] = generateMetadata(fullPath, relativePath);
     } else {
       // If it's a file, add its metadata with the basePath.
-      metadata.push({
-        name: file, // File name.
-        path: `${BASE_PATH}/assets/${relativePath.replace(/\\/g, '/')}`, // File path with basePath.
-        type: path.extname(file).slice(1), // File extension (e.g., 'png').
-      });
+      metadata[file] = {
+        name: file,
+        path: `${BASE_PATH}/assets/${relativePath.replace(/\\/g, '/')}`,
+        type: path.extname(file).slice(1),
+      };
     }
   });
 
