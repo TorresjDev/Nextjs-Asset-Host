@@ -1,13 +1,10 @@
 "use client";
-
 import React from "react";
-import { groupAssetsByCategory, handleCopyUrl } from "../lib/utils";
+import { handleCopyUrl } from "../lib/utils";
 import { metadata } from "./lib/metadata";
 import AssetSection from "../components/AssetSection";
 
 export default function Home() {
-	// Group assets by category and subcategories
-	const groupedAssets = groupAssetsByCategory(metadata);
 
 	return (
 		<main className="p-8">
@@ -19,15 +16,18 @@ export default function Home() {
 				</p>
 			</header>
 
-			{/* Render the AssetSection components dynamically */}
-			{Object.entries(groupedAssets).map(([category, subcategories]) => (
-				<AssetSection
-					key={category}
-					category={category}
-					subcategories={subcategories}
-					onCopy={handleCopyUrl}
-				/>
-			))}
+			{Object.entries(metadata).map((dataObj, index) => {
+
+				console.log( {dataObj} );
+				
+				return (
+					<AssetSection
+						key={index + 1}
+						fileObj={dataObj}
+						onCopy={handleCopyUrl}
+					/>
+				);
+			})}
 		</main>
 	);
 }
