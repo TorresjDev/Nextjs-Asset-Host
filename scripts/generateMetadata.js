@@ -31,8 +31,14 @@ function generateMetadata(dir, basePath = '') {
     if (fs.statSync(fullPath).isDirectory()) {
       // If it's a directory, recursively collect metadata.
       metadata[file] = generateMetadata(fullPath, relativePath);
+      metadata[file] = generateMetadata(fullPath, relativePath);
     } else {
       // If it's a file, add its metadata with the basePath.
+      metadata[file] = {
+        name: file,
+        path: `${BASE_PATH}/assets/${relativePath.replace(/\\/g, '/')}`,
+        type: path.extname(file).slice(1),
+      };
       metadata[file] = {
         name: file,
         path: `${BASE_PATH}/assets/${relativePath.replace(/\\/g, '/')}`,
