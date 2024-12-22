@@ -61,7 +61,13 @@ export const metadata = {
     "wallart": {}
   },
   "docs": {
-    "pdf": {},
+    "pdf": {
+      "Resume Jesus Torres Software Engineer.pdf": {
+        "name": "Resume Jesus Torres Software Engineer.pdf",
+        "path": "/assets-host/assets/docs/pdf/Resume Jesus Torres Software Engineer.pdf",
+        "type": "pdf"
+      }
+    },
     "word-docs": {}
   },
   "gif": {
@@ -386,6 +392,11 @@ export const metadata = {
       "exp3.svg": {
         "name": "exp3.svg",
         "path": "/assets-host/assets/icons/ui/exp3.svg",
+        "type": "svg"
+      },
+      "pdf.svg": {
+        "name": "pdf.svg",
+        "path": "/assets-host/assets/icons/ui/pdf.svg",
         "type": "svg"
       }
     }
