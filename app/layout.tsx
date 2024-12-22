@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata = {
 	title: "Assets Host",
 	description: "A hub for all creative assets!",
+	icons: "assets/icons/dev/dev-1.svg",
 };
 
 export default function RootLayout({
