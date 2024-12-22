@@ -1,4 +1,3 @@
- 
  export const handleCopyUrl = (path) => {
    const fullUrl = `${window.location.origin}${path}`; // Construct the full URL
    navigator.clipboard.writeText(fullUrl)

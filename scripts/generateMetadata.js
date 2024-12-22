@@ -10,8 +10,6 @@ const OUTPUT_FILE = path.join(__dirname, '../app/lib/metadata.ts');
 // Define the basePath for GitHub Pages.
 const BASE_PATH = '/assets-host'; // Replace with your repository name.
 
-// Define the basePath for GitHub Pages.
-const BASE_PATH = '/assets-host'; // Replace with your repository name.
 
 /**
  * Function: generateMetadata
