@@ -2,7 +2,6 @@ import Image from "next/image";
 import { blackBgFiles } from "../public/data";
 
 const ImgCard = ({ file, onCopy }) => {
-
 	return (
 		<div className="bg-zinc-50 shadow-xl rounded p-3 text-center border border-stone-600 max-w-xs mx-auto">
 			<div
@@ -11,7 +10,7 @@ const ImgCard = ({ file, onCopy }) => {
 				} w-36 h-36 mx-auto relative`}
 			>
 				<Image
-					src={file.path}
+					src={file.type == "pdf" ? "assets/icons/ui/pdf.svg" : file.path}
 					alt={file.name}
 					fill={true}
 					loading="lazy"
@@ -20,7 +19,8 @@ const ImgCard = ({ file, onCopy }) => {
 			</div>
 
 			<div className="p-4 flex flex-col items-center">
-				<p className="text-gray-800 text-sm font-medium truncate mb-3">
+				{/* Updated the paragraph with additional classes */}
+				<p className="px-2 text-gray-800 text-sm font-medium truncate mb-3 max-w-full">
 					{file.name}
 				</p>
 				<div className="flex gap-2">
