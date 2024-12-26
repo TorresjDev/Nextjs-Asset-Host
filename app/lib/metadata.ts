@@ -9,6 +9,16 @@ export const metadata = {
         "name": "bg.png",
         "path": "/assets-host/assets/backgrounds/abstract/bg.png",
         "type": "png"
+      },
+      "greek-bi-view.png": {
+        "name": "greek-bi-view.png",
+        "path": "/assets-host/assets/backgrounds/abstract/greek-bi-view.png",
+        "type": "png"
+      },
+      "mex-wall-art.png": {
+        "name": "mex-wall-art.png",
+        "path": "/assets-host/assets/backgrounds/abstract/mex-wall-art.png",
+        "type": "png"
       }
     },
     "ui": {
