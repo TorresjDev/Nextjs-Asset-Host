@@ -11,8 +11,8 @@ Access the project live at:
 ## 🛠️ Technologies Used
 - **<a href="https://nextjs.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="13"/></a> Next.js**: A React framework for building web applications.
 - **<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="12"/></a>TypeScript**: Ensures type safety and code maintainability.
-- **<a href="https://tailwindcss.com/" target="_blank"><img src="https://torresjdev.github.io/assets-host/assets/icons/tech/tail.svg" alt="tailwindcss" height="13"></a>Tailwind CSS**: Rapidly builds modern, responsive designs.
-- **<a href="https://pages.github.com/" target="_blank"><img src="https://torresjdev.github.io/assets-host/assets/icons/social/github.svg" alt="github pages" height="13"></a>GitHub Pages**: Hosts the static export of the application.
+- **<a href="https://tailwindcss.com/" target="_blank"><img src="https://torresjdev.github.io/Nextjs-Asset-Host/assets/icons/tech/tail.svg" alt="tailwindcss" height="13"></a>Tailwind CSS**: Rapidly builds modern, responsive designs.
+- **<a href="https://pages.github.com/" target="_blank"><img src="https://torresjdev.github.io/Nextjs-Asset-Host/assets/icons/social/github.svg" alt="github pages" height="13"></a>GitHub Pages**: Hosts the static export of the application.
 
 ---
 
