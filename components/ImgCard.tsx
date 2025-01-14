@@ -2,8 +2,6 @@ import Image from "next/image";
 import { blackBgFiles } from "../public/data";
 
 const ImgCard = ({ file, onCopy }) => {
-	console.log({ file });
-
 	return (
 		<div className="bg-zinc-50 shadow-xl rounded p-3 text-center border border-stone-600 max-w-xs mx-auto">
 			<div
