@@ -108,7 +108,7 @@ assets/
 ### Accessing Assets
 You can access assets using the following URL format:
 ```
-https://<username>.github.io/assets-host/assets/<path-to-file>
+https://<username>.github.io/Nextjs-Asset-Host/assets/<path-to-file>
 ```
 
 ### Examples
@@ -123,9 +123,9 @@ https://<username>.github.io/assets-host/assets/<path-to-file>
 Ensure that:
 1. **`basePath` is Correct**: The `next.config.js` file includes:
    ```javascript
-   basePath: '/assets-host';
+   basePath: '/Nextjs-Asset-Host';
    ```
-2. **Metadata Paths are Accurate**: Check `generateMetadata.js` ensures paths include `/assets-host`.
+2. **Metadata Paths are Accurate**: Check `generateMetadata.js` ensures paths include `/Nextjs-Asset-Host`.
 
 ### Development Server
 To run the development server locally:
