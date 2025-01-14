@@ -19,7 +19,10 @@ const BASE_PATH = ""; // Replace with your repository name.
  * @param {string} basePath - The base path for file references in metadata.
  * @returns {Array} - Metadata array containing file details.
  */
-function generateMetadata(dir, basePath = "") {
+function generateMetadata(
+	dir,
+	basePath = process.env.NODE_ENV === "Nextjs-Asset-Host" ? "/" : ""
+) {
 	const files = fs.readdirSync(dir); // Read directory contents.
 	const metadata = {};
 
