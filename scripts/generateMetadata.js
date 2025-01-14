@@ -8,7 +8,7 @@ const ASSETS_DIR = path.join(__dirname, "../public/assets");
 const OUTPUT_FILE = path.join(__dirname, "../app/lib/metadata.ts");
 
 // Define the basePath for GitHub Pages.
-const BASE_PATH = process.env.NODE_ENV === "Nextjs-Asset-Host" ? "/" : ""; // Replace with your repository name.
+const BASE_PATH = "/Nextjs-Asset-Host"; // Replace with your repository name.
 
 /**
  * Function: generateMetadata
