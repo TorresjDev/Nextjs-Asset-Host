@@ -4,7 +4,7 @@
 
 ## 🔗 Live Demo
 Access the project live at:
-[Assets Host GitHub Pages](https://torresjdev.github.io/assets-host/)
+[Assets Host GitHub Pages](https://torresjdev.github.io/Nextjs-Asset-Host/)
 
 ---
 
@@ -107,9 +107,7 @@ assets/
 
 ### Accessing Assets
 You can access assets using the following URL format:
-You can access assets using the following URL format:
 ```
-https://<username>.github.io/assets-host/assets/<path-to-file>
 https://<username>.github.io/assets-host/assets/<path-to-file>
 ```
 
@@ -136,23 +134,12 @@ To run the development server locally:
 
 ---
 
-## 🧩 Troubleshooting
-
-### Images Not Loading
-Ensure that:
-1. **`basePath` is Correct**: The `next.config.js` file includes:
-   ```javascript
-   basePath: '/assets-host';
-   ```
-2. **Metadata Paths are Accurate**: Check `generateMetadata.js` ensures paths include `/assets-host`.
-
 ### Development Server
 To run the development server locally:
+
 ```bash
 npm run dev
-npm run dev
 ```
-Visit `http://localhost:3000` in your browser.
 Visit `http://localhost:3000` in your browser.
 
 ---
@@ -171,8 +158,3 @@ Refer to `public/docs/licenses/` for licensing information. Proper attribution i
 - Add new assets.
 - Improve existing components or scripts.
 - Suggest structural improvements.
-
----
-
-## 📜 License
-Refer to `public/docs/licenses/` for licensing information. Proper attribution is required where applicable.
