@@ -5,7 +5,6 @@ import { metadata } from "./lib/metadata";
 import AssetSection from "../components/AssetSection";
 
 export default function Home() {
-
 	return (
 		<main className="p-8">
 			<header className="text-center mb-8">
@@ -17,9 +16,8 @@ export default function Home() {
 			</header>
 
 			{Object.entries(metadata).map((dataObj, index) => {
+				console.log({ dataObj });
 
-				console.log( {dataObj} );
-				
 				return (
 					<AssetSection
 						key={index + 1}
