@@ -111,6 +111,11 @@ export const metadata = {
         "path": "/Nextjs-Asset-Host/assets/icons/dev/dev-md.svg",
         "type": "svg"
       },
+      "dev-xl.svg": {
+        "name": "dev-xl.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/dev/dev-xl.svg",
+        "type": "svg"
+      },
       "exp1.svg": {
         "name": "exp1.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/dev/exp1.svg",
