@@ -1,14 +1,15 @@
 # 🎨 Creative Assets Host
 
-📜 **A hub for all your creative and multimedia asset needs!** Whether you're building websites, designing graphics, producing videos, or crafting unique projects, this repository has you covered. Featuring icons, images, videos, and audio files, it’s the ultimate toolbox for creativity. From sleek UI icons to stunning wallpapers, cinematic posters, and high-quality soundtracks, everything you need is here. 🎬✨🚀 
+📜 **A hub for all your creative and multimedia asset needs!** Whether you're building websites, designing graphics, producing videos, or crafting unique projects, this repository has you covered. Featuring icons, images, videos, and audio files, it’s the ultimate toolbox for creativity. From sleek UI icons to stunning wallpapers, cinematic posters, and high-quality soundtracks, everything you need is here. 🎬✨🚀
 
 ## 🔗 Live Demo
-Access the project live at:
-[Assets Host GitHub Pages](https://torresjdev.github.io/Nextjs-Asset-Host/)
+
+Access the project live at: [Assets Host GitHub Pages](https://torresjdev.github.io/Nextjs-Asset-Host/)
 
 ---
 
 ## 🛠️ Technologies Used
+
 - **<a href="https://nextjs.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="13"/></a> Next.js**: A React framework for building web applications.
 - **<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="12"/></a>TypeScript**: Ensures type safety and code maintainability.
 - **<a href="https://tailwindcss.com/" target="_blank"><img src="https://torresjdev.github.io/Nextjs-Asset-Host/assets/icons/tech/tail.svg" alt="tailwindcss" height="13"></a>Tailwind CSS**: Rapidly builds modern, responsive designs.
@@ -38,7 +39,7 @@ styles/
   └── workflows/
        └── nextjs.yml   # Workflow for building and deploying to GitHub Pages
 
-assets/ 
+assets/
   ├── 🎧 audio/
   │    ├── 🔔 effects/        # Sound effects (e.g., notifications, clicks)
   │    ├── 🎵 music/          # Background music tracks
@@ -71,6 +72,7 @@ assets/
 ---
 
 ## 🌟 Features
+
 - **Centralized Hosting**: A single hub for all creative assets.
 - **Clear Organization**: Hierarchical folder structure for easy navigation.
 - **GitHub Pages Ready**: Automatically deploys static content.
@@ -80,14 +82,17 @@ assets/
 ## 🚀 Deployment
 
 ### Steps to Deploy
+
 1. **Generate Metadata**
    Ensure the `generateMetadata.js` script is executed to create metadata for assets.
+
    ```bash
    npm run generate:metadata
    ```
 
 2. **Build the Project**
    Build the project for static export:
+
    ```bash
    npm run build
    ```
@@ -98,7 +103,7 @@ assets/
 4. **Access the Site**
    Visit the deployed site:
    ```
-   https://<username>.github.io/assets-host/
+   https://<username>.github.io/Nextjs-Asset-Host/
    ```
 
 ---
@@ -106,47 +111,59 @@ assets/
 ## 🔗 Usage Instructions
 
 ### Accessing Assets
+
 You can access assets using the following URL format:
+
 ```
 https://<username>.github.io/Nextjs-Asset-Host/assets/<path-to-file>
 ```
 
 ### Examples
-- Icon: `https://torresjdev.github.io/assets-host/assets/icons/social/github.svg`
-- Wallpaper: `https://torresjdev.github.io/assets-host/assets/backgrounds/gradient-set1.jpg`
+
+- Icon: `https://torresjdev.github.io/Nextjs-Asset-Host/assets/icons/social/github.svg`
+- Wallpaper: `https://torresjdev.github.io/Nextjs-Asset-Host/assets/backgrounds/gradient-set1.jpg`
 
 ---
 
 ## 🧩 Troubleshooting
 
 ### Images Not Loading
+
 Ensure that:
+
 1. **`basePath` is Correct**: The `next.config.js` file includes:
    ```javascript
-   basePath: '/Nextjs-Asset-Host';
+   basePath: "/Nextjs-Asset-Host";
    ```
 2. **Metadata Paths are Accurate**: Check `generateMetadata.js` ensures paths include `/Nextjs-Asset-Host`.
 
 ### Development Server
+
 To run the development server locally:
-- Icon: `https://torresjdev.github.io/assets-host/assets/icons/social/github.svg`
-- Wallpaper: `https://torresjdev.github.io/assets-host/assets/backgrounds/gradient-set1.jpg`
+
+- Icon: `https://torresjdev.github.io/Nextjs-Asset-Host/assets/icons/social/github.svg`
+- Wallpaper: `https://torresjdev.github.io/Nextjs-Asset-Host/assets/backgrounds/gradient-set1.jpg`
 
 ---
 
 ### Development Server
+
 To run the development server locally:
 
 ```bash
 npm run dev
 ```
+
 Visit `http://localhost:3000` in your browser.
 
 ---
+
 ---
 
 ## 🤝 Contributions
+
 Contributions are welcome! Feel free to:
+
 - Add new assets.
 - Improve existing components or scripts.
 - Suggest structural improvements.
@@ -154,7 +171,9 @@ Contributions are welcome! Feel free to:
 ---
 
 ## 📜 License
+
 Refer to `public/docs/licenses/` for licensing information. Proper attribution is required where applicable.
+
 - Add new assets.
 - Improve existing components or scripts.
 - Suggest structural improvements.
