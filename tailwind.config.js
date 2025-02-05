@@ -16,7 +16,12 @@ module.exports = {
 				xsm: "480px",
 			},
 		},
-		extend: {},
+		extend: {
+			colors: {
+				background: "var(--background)",
+				foreground: "var(--foreground)",
+			},
+		},
 	},
 	plugins: [],
 };

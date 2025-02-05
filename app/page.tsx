@@ -6,13 +6,12 @@ import AssetSection from "../components/AssetSection";
 
 export default function Home() {
 	return (
-		<main className="p-8">
+		<div className="p-8">
 			<header className="text-center mb-8">
-				<h1 className="text-4xl font-bold">Assets Host 🎨</h1>
-				<p className="text-lg mt-2">
+				<h3 className="text-lg mt-2 text-[#DAA520]">
 					Explore a curated library of images, icons, and multimedia files
 					categorized for ease of use. Select a category below to browse.
-				</p>
+				</h3>
 			</header>
 
 			{Object.entries(metadata).map((dataObj, index) => {
@@ -26,6 +25,6 @@ export default function Home() {
 					/>
 				);
 			})}
-		</main>
+		</div>
 	);
 }
