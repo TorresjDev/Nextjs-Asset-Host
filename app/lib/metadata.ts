@@ -87,6 +87,18 @@ export const metadata = {
         "path": "/Nextjs-Asset-Host/assets/gif/alerts/confetti.gif",
         "type": "gif"
       }
+    },
+    "anime": {
+      "fire-burn-fabio-nikolaus.gif": {
+        "name": "fire-burn-fabio-nikolaus.gif",
+        "path": "/Nextjs-Asset-Host/assets/gif/anime/fire-burn-fabio-nikolaus.gif",
+        "type": "gif"
+      },
+      "national-coffee-day.gif": {
+        "name": "national-coffee-day.gif",
+        "path": "/Nextjs-Asset-Host/assets/gif/anime/national-coffee-day.gif",
+        "type": "gif"
+      }
     }
   },
   "icons": {
@@ -208,6 +220,11 @@ export const metadata = {
       "dotnet.svg": {
         "name": "dotnet.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/tech/dotnet.svg",
+        "type": "svg"
+      },
+      "express-icon.svg": {
+        "name": "express-icon.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/tech/express-icon.svg",
         "type": "svg"
       },
       "fm.svg": {
