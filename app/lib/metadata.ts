@@ -187,6 +187,11 @@ export const metadata = {
       }
     },
     "tech": {
+      "apple-pay.svg": {
+        "name": "apple-pay.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/tech/apple-pay.svg",
+        "type": "svg"
+      },
       "bash.svg": {
         "name": "bash.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/tech/bash.svg",
@@ -195,6 +200,21 @@ export const metadata = {
       "bootstrap.svg": {
         "name": "bootstrap.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/tech/bootstrap.svg",
+        "type": "svg"
+      },
+      "coinbase.svg": {
+        "name": "coinbase.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/tech/coinbase.svg",
+        "type": "svg"
+      },
+      "cronos-cro-logo.svg": {
+        "name": "cronos-cro-logo.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/tech/cronos-cro-logo.svg",
+        "type": "svg"
+      },
+      "crypto-com.svg": {
+        "name": "crypto-com.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/tech/crypto-com.svg",
         "type": "svg"
       },
       "csharp.svg": {
@@ -247,6 +267,11 @@ export const metadata = {
         "path": "/Nextjs-Asset-Host/assets/icons/tech/gitbash.svg",
         "type": "svg"
       },
+      "gpay.svg": {
+        "name": "gpay.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/tech/gpay.svg",
+        "type": "svg"
+      },
       "html.svg": {
         "name": "html.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/tech/html.svg",
@@ -260,6 +285,11 @@ export const metadata = {
       "jupyter.svg": {
         "name": "jupyter.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/tech/jupyter.svg",
+        "type": "svg"
+      },
+      "master-card.svg": {
+        "name": "master-card.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/tech/master-card.svg",
         "type": "svg"
       },
       "matplotlib.svg": {
@@ -295,6 +325,11 @@ export const metadata = {
       "numpy.svg": {
         "name": "numpy.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/tech/numpy.svg",
+        "type": "svg"
+      },
+      "pay-pal.svg": {
+        "name": "pay-pal.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/tech/pay-pal.svg",
         "type": "svg"
       },
       "phaser-planet-web.svg": {
@@ -355,6 +390,11 @@ export const metadata = {
       "ts.svg": {
         "name": "ts.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/tech/ts.svg",
+        "type": "svg"
+      },
+      "visa.svg": {
+        "name": "visa.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/tech/visa.svg",
         "type": "svg"
       },
       "vs.svg": {
