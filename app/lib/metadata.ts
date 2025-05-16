@@ -22,6 +22,16 @@ export const metadata = {
       }
     },
     "ui": {
+      "404-not-found-transparent.png": {
+        "name": "404-not-found-transparent.png",
+        "path": "/Nextjs-Asset-Host/assets/backgrounds/ui/404-not-found-transparent.png",
+        "type": "png"
+      },
+      "404-not-found.png": {
+        "name": "404-not-found.png",
+        "path": "/Nextjs-Asset-Host/assets/backgrounds/ui/404-not-found.png",
+        "type": "png"
+      },
       "footer-grid.svg": {
         "name": "footer-grid.svg",
         "path": "/Nextjs-Asset-Host/assets/backgrounds/ui/footer-grid.svg",
@@ -108,11 +118,6 @@ export const metadata = {
         "path": "/Nextjs-Asset-Host/assets/icons/dev/c.svg",
         "type": "svg"
       },
-      "dev-1.svg": {
-        "name": "dev-1.svg",
-        "path": "/Nextjs-Asset-Host/assets/icons/dev/dev-1.svg",
-        "type": "svg"
-      },
       "dev-lg.svg": {
         "name": "dev-lg.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/dev/dev-lg.svg",
@@ -121,6 +126,11 @@ export const metadata = {
       "dev-md.svg": {
         "name": "dev-md.svg",
         "path": "/Nextjs-Asset-Host/assets/icons/dev/dev-md.svg",
+        "type": "svg"
+      },
+      "dev-sm.svg": {
+        "name": "dev-sm.svg",
+        "path": "/Nextjs-Asset-Host/assets/icons/dev/dev-sm.svg",
         "type": "svg"
       },
       "dev-xl.svg": {
